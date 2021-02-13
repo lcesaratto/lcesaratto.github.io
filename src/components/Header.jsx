@@ -20,7 +20,7 @@ function Header(props) {
         <br />
         an Electronic Engineer,
         <br />
-        currently studying a M.Sc. in CS.
+        currently studying a M.Sc. in DS.
         <br />
       </h1>
 
