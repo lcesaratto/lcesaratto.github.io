@@ -22,12 +22,11 @@ html {
 }
 
 .App-body {
-  position: absolute;
+  position: relative;
   top: 0px;
   left: 40%;
   width: 60%;
   min-height: 100vh;
-  height: 1500px;
 }
 
 .App-footer {
@@ -53,6 +52,7 @@ html {
   }
 
   .App-body {
+    min-height: unset;
     position: unset;
     float: left;
     top: 70vh;

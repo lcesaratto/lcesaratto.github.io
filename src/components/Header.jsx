@@ -24,7 +24,7 @@ function Header(props) {
         <br />
       </h1>
 
-      <ul class="links-list">
+      <ul className="links-list">
         <li>
           <Link exact to="/">
             Projects

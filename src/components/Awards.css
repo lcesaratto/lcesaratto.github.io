@@ -1,7 +1,7 @@
 .awards {
   background-color: #c0c3c6;
   display: flex;
-  justify-content: center; /* align horizontal */
-  align-items: center; /* align vertical */
+  justify-content: center;
+  align-items: center;
   font-size: 3rem;
 }
