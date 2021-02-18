@@ -26,6 +26,7 @@
 }
 
 .cards-item {
+  display: flex;
   background-color: #ffffff;
   border: none;
   width: 100%;
@@ -37,10 +38,28 @@
   background-color: #609cc4;
 }
 
+.cards-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .cards-footer {
   background-color: #d8dcdf;
 }
 
+.cards-text-tail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .list-group-flush {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  width: 60%;
+}
+
+.cards-item .fa-icon {
+  margin-left: 4rem;
+  color: rgb(83, 83, 83);
 }
