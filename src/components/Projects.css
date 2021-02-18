@@ -36,6 +36,38 @@
 .cards-header {
   color: #ffffff;
   background-color: #609cc4;
+  font-size: 2.5rem;
+}
+
+.cards-image-group {
+  position: relative;
+}
+
+.cards-brands-logos {
+  position: absolute;
+  top: 50%;
+  min-width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.cards-brands-logos img {
+  position: relative;
+  width: 18%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.cards-background-image {
+  z-index: -1;
+  filter: blur(0.5vh);
+  -webkit-filter: blur(0.5vh);
+  -moz-filter: blur(0.5vh);
+  -o-filter: blur(0.5vh);
+  -ms-filter: blur(0.5vh);
+  padding: 0.5vh 0.5vh;
 }
 
 .cards-text {

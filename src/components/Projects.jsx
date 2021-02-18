@@ -19,10 +19,19 @@ function Projects(props) {
               <Card.Header className="cards-header">
                 Advanced Autonomous Car
               </Card.Header>
-              <Card.Img
-                variant="top"
-                src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg"
-              />
+              <section className="cards-image-group">
+                <Card.Img
+                  variant="top"
+                  src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg"
+                  className="cards-background-image"
+                />
+                <div className="cards-brands-logos">
+                  <img src="./images/html5.svg" alt="brands-logos" />
+                  <img src="./images/css-5.svg" alt="brands-logos" />
+                  <img src="./images/logo-javascript.svg" alt="brands-logos" />
+                  <img src="./images/react-2.svg" alt="brands-logos" />
+                </div>
+              </section>
               <Card.Body>
                 <Card.Text className="cards-text">
                   By means of a combination of computer vision techniques,
@@ -54,10 +63,20 @@ function Projects(props) {
               <Card.Header className="cards-header">
                 Advanced Autonomous Car
               </Card.Header>
-              <Card.Img
-                variant="top"
-                src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg"
-              />
+              <section className="cards-image-group">
+                <Card.Img
+                  variant="top"
+                  src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg"
+                  className="cards-background-image"
+                />
+                <div className="cards-brands-logos">
+                  <img src="./images/python-5.svg" alt="brands-logos" />
+                  <img
+                    src="./images/OpenCV_logo_black.svg"
+                    alt="brands-logos"
+                  />
+                </div>
+              </section>
               <Card.Body>
                 <Card.Text className="cards-text">
                   By means of a combination of computer vision techniques,
@@ -89,10 +108,18 @@ function Projects(props) {
               <Card.Header className="cards-header">
                 Advanced Autonomous Car
               </Card.Header>
-              <Card.Img
-                variant="top"
-                src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg"
-              />
+              <section className="cards-image-group">
+                <Card.Img
+                  variant="top"
+                  src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg"
+                  className="cards-background-image"
+                />
+                <div className="cards-brands-logos">
+                  <img src="./images/python-5.svg" alt="brands-logos" />
+                  <img src="./images/django.svg" alt="brands-logos" />
+                  <img src="./images/tensorflow-2.svg" alt="brands-logos" />
+                </div>
+              </section>
               <Card.Body>
                 <Card.Text className="cards-text">
                   By means of a combination of computer vision techniques,
@@ -124,10 +151,23 @@ function Projects(props) {
               <Card.Header className="cards-header">
                 Advanced Autonomous Car
               </Card.Header>
-              <Card.Img
-                variant="top"
-                src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg"
-              />
+              <section className="cards-image-group">
+                <Card.Img
+                  variant="top"
+                  src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg"
+                  className="cards-background-image"
+                />
+                <div className="cards-brands-logos">
+                  <img src="./images/python-5.svg" alt="brands-logos" />
+                  <img src="./images/flask.svg" alt="brands-logos" />
+                  <img
+                    src="./images/seaborn-tall-light.svg"
+                    alt="brands-logos"
+                  />
+
+                  <img src="./images/scikit-learn.svg" alt="brands-logos" />
+                </div>
+              </section>
               <Card.Body>
                 <Card.Text className="cards-text">
                   By means of a combination of computer vision techniques,
