@@ -13,7 +13,7 @@ function Projects(props) {
   return (
     <section className={"projects" + " " + props.className}>
       <Container className="cards-container">
-        <Row xs={1} md={2} lg={3} className="cards-row">
+        <Row xs={1} sm={1} md={2} lg={2} xl={3} className="cards-row">
           <Col className="cards-column">
             <Card bg="light" text="dark" className="mb-2 cards-item">
               <Card.Header className="cards-header">
