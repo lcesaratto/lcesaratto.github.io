@@ -2,7 +2,43 @@
   background-color: #3d556d;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+}
+
+.carousel-body {
+  margin-bottom: 2vw;
+  border: 1px #3d556d;
+  box-shadow: 0px 0px 1.2vw -0.6vw #f8f9fa;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: unset;
+  padding: unset;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.w-100 {
+  object-fit: fill;
+  width: 56vw !important;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+}
+
+@media screen and (max-width: 480px) {
+  .w-100 {
+    object-fit: fill;
+    width: 96vw !important;
+  }
 }
