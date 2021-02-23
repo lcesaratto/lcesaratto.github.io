@@ -34,9 +34,14 @@
   font-size: 3.5vh;
 }
 
+.fa-icon:hover,
+.fa-icon:active {
+  font-size: 5vh;
+}
+
 .footer-comment {
   white-space: nowrap;
-  color: white;
+  color: rgb(198, 198, 198);
   position: absolute;
   top: 25vh;
   font-size: 1.5vh;

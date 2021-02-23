@@ -13,6 +13,10 @@ function Awards(props) {
             alt="First slide"
           />
           <Carousel.Caption>
+            <img
+              src="./images/iconfinder_trophy_1054950_gold.svg"
+              alt="trophy-icon"
+            />
             <h1>1º Place</h1>
             <h2>27th Argentine Congress of Automatic Control</h2>
             <h2>AADECA 2020</h2>
@@ -41,6 +45,10 @@ function Awards(props) {
             alt="First slide"
           />
           <Carousel.Caption>
+            <img
+              src="./images/iconfinder_trophy_1054950_silver.svg"
+              alt="trophy-icon"
+            />
             <h1>2º Place</h1>
             <h2>49th Argentine Conference of Computer Science</h2>
             <h2>JAIIO 2020</h2>
@@ -69,6 +77,10 @@ function Awards(props) {
             alt="First slide"
           />
           <Carousel.Caption>
+            <img
+              src="./images/iconfinder_trophy_1054950_gold.svg"
+              alt="trophy-icon"
+            />
             <h1>1º Place</h1>
             <h2>Argentine Symposium on Embedded Systems</h2>
             <h2>SASE 2019</h2>
@@ -97,6 +109,10 @@ function Awards(props) {
             alt="First slide"
           />
           <Carousel.Caption>
+            <img
+              src="./images/iconfinder_trophy_1054950_gold.svg"
+              alt="trophy-icon"
+            />
             <h1>1º Place</h1>
             <h2>3rd Electronic Engineering Conference</h2>
             <h2>JONICA 2018</h2>
