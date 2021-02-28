@@ -30,7 +30,7 @@
 
 .fa-icon {
   margin: 1.5vh;
-  color: white;
+  color: whitesmoke;
   font-size: 3.5vh;
 }
 
@@ -41,7 +41,7 @@
 
 .footer-comment {
   white-space: nowrap;
-  color: rgb(198, 198, 198);
+  color: whitesmoke;
   position: absolute;
   top: 25vh;
   font-size: 1.5vh;

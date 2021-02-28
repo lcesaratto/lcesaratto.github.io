@@ -51,9 +51,7 @@ function Projects(props) {
                 </section>
               </Card.Body>
               <Card.Footer className="cards-footer">
-                <small className="text-muted">
-                  Finalization date: February 2021
-                </small>
+                <small className="text-muted">Finalization date: 02/2021</small>
               </Card.Footer>
             </Card>
           </Col>
@@ -96,9 +94,7 @@ function Projects(props) {
                 </section>
               </Card.Body>
               <Card.Footer className="cards-footer">
-                <small className="text-muted">
-                  Finalization date: June 2020
-                </small>
+                <small className="text-muted">Finalization date: 06/2020</small>
               </Card.Footer>
             </Card>
           </Col>
@@ -144,9 +140,7 @@ function Projects(props) {
                 </section>
               </Card.Body>
               <Card.Footer className="cards-footer">
-                <small className="text-muted">
-                  Finalization date: February 2021
-                </small>
+                <small className="text-muted">Finalization date: 02/2021</small>
               </Card.Footer>
             </Card>
           </Col>
@@ -191,9 +185,7 @@ function Projects(props) {
                 </section>
               </Card.Body>
               <Card.Footer className="cards-footer">
-                <small className="text-muted">
-                  Finalization date: January 2021
-                </small>
+                <small className="text-muted">Finalization date: 01/2021</small>
               </Card.Footer>
             </Card>
           </Col>
