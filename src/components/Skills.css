@@ -2,7 +2,49 @@
   background-color: #3d556d;
   color: white;
   display: flex;
-  justify-content: center; /* align horizontal */
-  align-items: center; /* align vertical */
+  flex-direction: column;
+  text-align: left;
   font-size: 3rem;
+  overflow: hidden;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+}
+
+.skills-groupset {
+  margin-bottom: 2vw;
+}
+
+.skills-groupset h1 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.skills-groupset ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.skills-groupset li {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  /* TABLET */
+  .skills-groupset h1 {
+    font-size: 5vw;
+  }
+  .skills-groupset li {
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* CELLPHONE */
+  .skills-groupset h1 {
+    font-size: 5vw;
+  }
+  .skills-groupset li {
+    font-size: 3.5vw;
+  }
 }
