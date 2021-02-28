@@ -5,7 +5,7 @@ import Carousel from "react-bootstrap/Carousel";
 function Awards(props) {
   return (
     <section className={"awards" + " " + props.className}>
-      <Carousel className="carousel-body">
+      <Carousel className="carousel-body" interval={null}>
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -46,7 +46,7 @@ function Awards(props) {
         </Carousel.Item>
       </Carousel>
 
-      <Carousel className="carousel-body">
+      <Carousel className="carousel-body" interval={null}>
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -85,7 +85,7 @@ function Awards(props) {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <Carousel className="carousel-body">
+      <Carousel className="carousel-body" interval={null}>
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -125,7 +125,7 @@ function Awards(props) {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <Carousel className="carousel-body">
+      <Carousel className="carousel-body" interval={null}>
         <Carousel.Item>
           <img
             className="d-block w-100"
